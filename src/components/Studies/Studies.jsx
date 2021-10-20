@@ -2,8 +2,8 @@ import React from 'react';
 
 const Studies = () => {
     return (
-        <div>
-            
+        <div id='studies'>
+            <p>My studies</p>
         </div>
     );
 };
