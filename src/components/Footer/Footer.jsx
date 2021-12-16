@@ -1,10 +1,11 @@
 import React from 'react';
+import { FooterDiv } from './styles';
 
 const Footer = () => {
     return (
-        <footer>
+        <FooterDiv>
             <p>Design by @Macarena Zalazar</p>
-        </footer>
+        </FooterDiv>
     );
 };
 

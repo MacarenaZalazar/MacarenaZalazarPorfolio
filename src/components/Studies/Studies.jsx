@@ -1,10 +1,11 @@
 import React from 'react';
+import { StudiesCont } from './styles';
 
 const Studies = () => {
     return (
-        <div id='studies'>
+        <StudiesCont id='studies'>
             <p>My studies</p>
-        </div>
+        </StudiesCont>
     );
 };
 
