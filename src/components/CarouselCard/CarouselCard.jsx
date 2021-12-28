@@ -5,9 +5,9 @@ import { CardDiv, TextDiv } from './styles';
 const CarouselCard = ({title, description, img, url}) => {
     const [display, setDisplay] = useState(false)
     return (
-        <CardDiv onMouseEnter={()=> setDisplay(true)} onMouseLeave={() => setDisplay(false)}>
+        <CardDiv onMouseEnter={()=> setDisplay(true)} onMouseLeave={()=>setDisplay(false)}>
             <Image src={img} fluid/>
-            <Fade in={display}>
+            <Fade in={display} mountOnEnter unmountOnExit>
                 <TextDiv>
                     <h1>{title}</h1>
                     <p>{description}</p>

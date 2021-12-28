@@ -4,13 +4,14 @@ import tora from './imgs/tora.png';
 import miles from './imgs/miles.png';
 import weather from './imgs/weather.png';
 
-export const navLinks = {
+export const contactLinks = {
     linkedin: 'www.linkedin.com/in/macarenazalazar', 
     github: 'https://github.com/MacarenaZalazar', 
     mail: 'macarena.zalazar@gmail.com'
 };
 
-export const aboutMe =["I'm a full-stack developer,musician, and teacher, looking for new knowledge and skills to unite all my passions.", "I currently live in Buenos Aires, Argentina.",  "I always had a great interest in art, which I developed by studying music and expanded by training in design and photography.", "When I came across the IT world, I felt a world full of possibilities open up. ","I'm looking for the balance between logic and the spontaneous in order to create something new and practical that also has an impact on the real world."];
+export const aboutMe =["I'm a full-stack developer,musician, and teacher, looking for new knowledge and skills to unite all my passions.", "I currently live in Buenos Aires, Argentina.",  
+"I recently finished a fullstack bootcamp.", "I always had a great interest in art, which I developed by studying music and expanded by training in design and photography.", "When I came across the IT world, I felt a world full of possibilities open up. ","I'm looking for the balance between logic and the spontaneous in order to create something new and practical that also has an impact on the real world."];
 
 export const projectDetails = [
     {title:'Doggieland', description:'', img: doggieland, url: 'https://doggieland.herokuapp.com/'},

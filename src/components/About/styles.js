@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fadein } from '../../utils/animations';
+import { fadein } from '../../utils/styleUtils';
 
 export const AboutCont = styled.div`
     height: 100vh;

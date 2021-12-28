@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { fadein } from '../../utils/animations';
+import { fadein } from '../../utils/styleUtils';
 
 export const LandingCont = styled.div`
 background-image: url(${props => props.img});

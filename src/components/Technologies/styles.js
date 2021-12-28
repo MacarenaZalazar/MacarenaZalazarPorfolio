@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
-export const StudiesCont = styled.div`
+export const TechnologiesCont = styled.div`
     height: 100vh;
 `
