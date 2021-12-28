@@ -5,9 +5,9 @@ import { NavDiv } from './styles';
 const NavBar = () => {
     return (
         <NavDiv id='nav'>
-          <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
+          <Navbar collapseOnSelect expand="md" bg="transparent" variant="dark">
             <Container>
-            <Navbar.Brand href="#home">Macarena Zalazar Porfolio</Navbar.Brand>
+            <Navbar.Brand href="">Macarena Zalazar Porfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">

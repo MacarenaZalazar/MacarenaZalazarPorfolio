@@ -1,10 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './components/Footer/Footer';
-import MyProjects from './components/Projects.js/Projects';
+import MyProjects from './containers/Projects.js/Projects';
 import { AppDiv } from './AppStyles';
 import Landing from './components/Landing/Landing';
-import Technologies from './components/Technologies/Technologies';
-import Contact from './components/Contact/Contact';
+import Technologies from './containers/Technologies/Technologies';
+import Contact from './containers/Contact/Contact';
 
 
 function App() {

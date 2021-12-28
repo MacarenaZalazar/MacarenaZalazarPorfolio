@@ -12,6 +12,9 @@ export const LinksDiv = styled.div`
             font-size: 1.2rem;
             text-decoration: none;
             padding: 0 2rem;
+            @media (max-width: 500px) {
+                font-size: 1rem;
+             }
     
         }
     }

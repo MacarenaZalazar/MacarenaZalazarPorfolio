@@ -1,10 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { projectDetails } from '../../utils/englishData';
-import CarouselCard from '../CarouselCard/CarouselCard';
+import CarouselCard from '../../components/CarouselCard/CarouselCard';
 import { ProjectsDiv } from './styles';
-import ArrowDown from '../ArrowDown/ArrowDown';
-import ArrowUp from '../ArrowUp/ArrowUp';
+import ArrowDown from '../../components/ArrowDown/ArrowDown';
+import ArrowUp from '../../components/ArrowUp/ArrowUp';
 import { ArrowsCont } from '../../utils/styleUtils';
 
 

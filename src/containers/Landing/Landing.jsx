@@ -3,7 +3,7 @@ import ArrowDown from '../ArrowDown/ArrowDown';
 import { LandingCont } from './styles';
 import image from '../../utils/imgs/aboutImg.jpg'
 import NavBar from '../Navbar/NavBar';
-import About from '../About/About'
+import About from '../../containers/About/About'
 
 const Landing = () => {
     return (
