@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const ContactCont = styled.div`
     height: 100vh;
-    background: rgba(43,36,37,1);
     .contact{
         padding:3rem;
         display: flex;

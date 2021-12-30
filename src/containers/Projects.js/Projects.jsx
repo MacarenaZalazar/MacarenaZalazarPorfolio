@@ -3,15 +3,12 @@ import { Carousel } from 'react-bootstrap';
 import { projectDetails } from '../../utils/englishData';
 import CarouselCard from '../../components/CarouselCard/CarouselCard';
 import { ProjectsDiv } from './styles';
-import ArrowDown from '../../components/ArrowDown/ArrowDown';
-import ArrowUp from '../../components/ArrowUp/ArrowUp';
-import { ArrowsCont } from '../../utils/styleUtils';
+import Arrows from '../Arrows/Arrows';
 
 
 const Projects = () => {
     return (
         <ProjectsDiv id='projects'>
-            <h1>Here're some of my projects</h1>
             <Carousel slide={false}>
                 {
                     projectDetails.map((e, idx) => {
@@ -21,10 +18,7 @@ const Projects = () => {
                     })
                 }
             </Carousel>
-            <ArrowsCont>
-                <ArrowDown href='#contact'/>
-                <ArrowUp href='#technologies'/>
-            </ArrowsCont>
+            <Arrows hrefUp='#technologies' hrefDown='#contact' />
         </ProjectsDiv>
     );
 };

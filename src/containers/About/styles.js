@@ -7,7 +7,7 @@ export const AboutCont = styled.div`
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 3rem;
     animation: ${fadein} 1s;
     .description{
@@ -18,6 +18,9 @@ export const AboutCont = styled.div`
         padding: 3rem;
         display: flex;
         flex-direction: column;
+        @media (max-width: 650px){
+            max-width: 90%;
+        }
    
     }
 `
