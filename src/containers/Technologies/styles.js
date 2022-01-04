@@ -23,4 +23,9 @@ export const Item = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media(max-width: 700px){
+        h2{
+            font-size: 1.3rem;
+        }
+    }
 `
