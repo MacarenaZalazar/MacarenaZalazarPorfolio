@@ -4,7 +4,7 @@ import { FooterDiv } from './styles';
 const Footer = () => {
     return (
         <FooterDiv>
-            <h6>design & coded by Macarena Zalazar</h6>
+            <p>designed & coded by Macarena Zalazar</p>
         </FooterDiv>
     );
 };

@@ -5,36 +5,36 @@ export const LandingCont = styled.div`
 width:100%;
 display:flex;
 flex-direction: column;
-align-content: center;
 height: 100vh;
     .landingText{
         padding: 3rem;
         height: 100%;
         animation: ${fadein} 2.5s;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content:center;
+        justify-content: space-around;
+
         .title{
-            padding: 3rem;
-            text-align: left;
+            width: 100%;
             display: flex;
-            flex-direction: column;
+            text-align: left;  
+            align-items: center; 
             justify-content: space-around;
-            align-items: center;
-            justify-self: center;
+            .icon{
+                padding: 3rem;
+                font-size: 60px;
+            }         
         }
         h1{
             color: white;
             font-size: 40px;
+            @media (max-width: 700px) {
+                font-size: 2rem;
+             }
         }
         h4{
             color: white
         }
     }
-    .arrow{
-        animation: ${fadein} 3.5s;
-        padding: 4rem;
-        justify-self: end;
-    }
-
 `

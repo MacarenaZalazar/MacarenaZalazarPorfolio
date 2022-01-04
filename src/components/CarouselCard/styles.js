@@ -10,6 +10,8 @@ export const CardDiv = styled.div`
         filter: brightness(80%);
         -webkit-filter: brightness(80%);
         -moz-filter: brightness(80%);
+        max-height: 450px;
+        width: auto;
     }
     
 
@@ -27,9 +29,22 @@ export const TextDiv = styled.div`
     top:0;
     background: rgba(0,0,0,0.7);
     text-align: center;
-    width: 100%;
-    text-aling: center;
-    align-items: center;
-    justify-content: center;
+    @media (max-width: 750px){
+        h1{
+           font-size: 1.3rem; 
+        }
+        p{
+            font-size: 0.9rem;
+        }
+    }
+    @media (max-width: 500px){
+        h1{
+           font-size: 1rem; 
+        }
+        p{
+            font-size: 0.7rem;
+        }
+    }
+    
     
 `

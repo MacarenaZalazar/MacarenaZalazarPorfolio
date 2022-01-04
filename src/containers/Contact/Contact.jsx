@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import { ContactCont } from './styles';
 import profileImg from '../../utils/imgs/maca.jpg';
 import {Image} from 'react-bootstrap'
-import ArrowUp from '../../components/ArrowUp/ArrowUp';
+import Arrows from '../Arrows/Arrows';
 
 
 const Contact = () => {
@@ -15,9 +15,7 @@ const Contact = () => {
                     <ContactLinks/>
                     <Image src={profileImg} alt='profile-pic'  roundedCircle fluid />
                 </div>
-            <div>
-                <ArrowUp href='#nav'/>
-            </div>
+                <Arrows hrefUp='#nav'/>
             </div>
             <Footer/>
         </ContactCont>

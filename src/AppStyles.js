@@ -10,14 +10,14 @@ export const AppDiv = styled.div`
    color: white;
    margin: 0;
    h1{
-      @media (max-width: 500px) {
-         font-size: 1.8rem;
+      @media (max-width: 700px) {
+         font-size: 1.5rem;
       }
     }
     p{
        font-size: 1.3rem;
        margin: 0;
-      @media (max-width: 500px) {
+      @media (max-width: 750px) {
          font-size: 1rem;
       }
     }
