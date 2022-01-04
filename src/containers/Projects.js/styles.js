@@ -7,4 +7,7 @@ export const ProjectsDiv= styled.div`
     align-items: center;
     justify-content: space-around;
     padding: 3rem;
+    @media (max-width: 650px){
+        padding:0.3rem;
+    }
 `
