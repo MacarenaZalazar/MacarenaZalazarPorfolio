@@ -25,3 +25,10 @@ export const AppDiv = styled.div`
       color: white;
    }
 `
+export const Loading = styled.div`
+   background-color: black;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+`
