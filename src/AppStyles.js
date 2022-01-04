@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AppDiv = styled.div`
-   background-image: url(${props => props.img});
+   background-image: url('./static/media/aboutImg.03ac211d.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    text-align: center;

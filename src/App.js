@@ -5,11 +5,10 @@ import Landing from './containers/Landing/Landing';
 import Technologies from './containers/Technologies/Technologies';
 import Contact from './containers/Contact/Contact';
 import About from './containers/About/About';
-import image from '../src/utils/imgs/aboutImg.jpg';
 
 function App() {
   return (
-      <AppDiv img={image}>
+      <AppDiv>
       <Landing/>
       <About/>
       <Technologies/>
