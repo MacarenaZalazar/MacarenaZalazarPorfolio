@@ -11,13 +11,16 @@ import About from './containers/About/About';
 function App() {
   
   return (
-    <AppDiv img={image}>
+     image ? <>
+      <AppDiv img={image}>
       <Landing/>
       <About/>
       <Technologies/>
       <MyProjects/>
       <Contact/>
-    </AppDiv>
+      </AppDiv>
+      </> : <p>Loading...</p>
+  
   );
 }
 
