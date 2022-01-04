@@ -16,7 +16,6 @@ function App() {
   useEffect(()=> {
     setTimeout(()=>setLoading(true), 3000)
   },[])
-  console.log(loading)
   return (
     loading ? <>
       <AppDiv img={image}>
@@ -27,7 +26,7 @@ function App() {
       <Contact/>
     </AppDiv>
     </> : 
-    <Loading>
+    <Loading> 
       <Icon/>
     </Loading>
   );
