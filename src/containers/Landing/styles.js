@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { fadein } from '../../utils/styleUtils';
-
+import { colors } from "../../utils/styleUtils";
 export const LandingCont = styled.div`
 width:100%;
 display:flex;
@@ -23,7 +23,8 @@ height: 100vh;
             justify-content: space-around;
             .icon{
                 padding: 3rem;
-                font-size: 60px;
+                font-size: 80px;
+                animation: ${colors} 3s infinite alternate;
             }         
         }
         h1{

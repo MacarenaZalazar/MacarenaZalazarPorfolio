@@ -16,7 +16,7 @@ export const ContactCont = styled.div`
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        min-height: 93%;
+        min-height: 95%;
         img{
             max-height: 350px;
             padding: 1rem;
