@@ -10,12 +10,8 @@ export const AboutCont = styled.div`
     padding: 3rem;
     animation: ${fadein} 1s;
     flex-direction: column;
-    .content{
-        height: 100%;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+    @media (max-width: 650px){
+        padding:1rem;
     }
     .description{
         text-align: start;
